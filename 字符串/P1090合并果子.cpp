@@ -4,7 +4,7 @@ using namespace std;
 struct node {
 	long long  value;
 	bool operator <(node b)const {
-		return this->value > b.value;//返回true说明优先级低
+		return this->value > b.value;
 	}
 };
 
